@@ -1,0 +1,413 @@
+/* Home Page Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+ 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  nav{
+    display: flex;
+    text-align: end;
+  }
+  .sign {
+    height: 40px;
+    filter: invert(1);
+    width: 70;
+    height: 70;
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+  
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+#cta{
+    color: #fff;
+    padding: 4%;
+}
+
+.btn{
+
+  height:45px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  color: #f4f4f4;
+  font-size: large;
+  margin-top: 6rem;
+  cursor: pointer;
+}
+
+
+.btn-dark{
+     background-color:#060303;
+     display: flex;
+     align-items: center;
+}
+.btn-outline-light{
+  background-color:#ff4c68;
+  display: flex;
+  align-items: center;
+}
+
+.apple{
+  height: 35px;
+  margin-right: 2px;
+  margin-left: 18px;
+  filter: invert(1);
+}
+
+.play{
+  height: 35px;
+  margin-left: 18px;
+  filter: invert(1);
+}
+.doctor{
+  height: 450px;
+  margin-bottom: 60px;
+}
+#hero{
+  background-color: #f4d6db;
+} 
+.hero-content {
+     color: #2b2727;
+     display: flex;
+     justify-content: space-around;
+}
+
+.left{
+    padding-top: 11rem;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-main{
+    display: flex;
+}
+  
+.hero-content h1 {
+   text-align: start;
+    font-size: 36px;
+}
+  
+.hero-content p {
+    font-size: 16px;
+    text-align: start;
+}
+  
+  
+#mission {
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+  
+.mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.mission-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+footer p {
+    font-size: 14px;
+}
+
+/* About Us Page Styling */
+
+section {
+  padding: 40px 0;
+}
+
+.about-content{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.history-content{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.achievements-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: start;
+  margin-right: 65px;
+}
+#achievements{
+  background-color: #f4f4f4;
+}
+.achievements-content li{
+  list-style: none;
+}
+
+.about-content h2{
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.history-content h2
+{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.achievements-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.history-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#image{
+  justify-content: center;
+}
+
+
+h3{
+  text-align: center;
+  position: relative;
+  padding: 4px;
+}
+
+.image-hospital {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-hospital h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.png{
+  height: 80px;
+  margin-left:45px;
+  margin-right:55px;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+
+#history{
+  background-color: #f4f4f4;
+}  
+/*Contact Us*/ 
+#imag{
+  padding-top: 5rem;
+}
+.logo {
+  height: 30px;
+  height: 70;
+  width: 70;
+  padding-bottom: 0.4rem;
+  padding-top: 5px;
+  padding-right: 8px;
+}
+#contact p {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+.con{
+  font-size: 18px;
+  padding-left: 2rem;
+}
+#contact h2 {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  @media screen and (max-width: 800px) {
+       body{
+        font-size: 8px;
+       }
+       .sign {
+        height: 30px;
+      }
+       nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+       .hero-content {
+        color: #2b2727;
+        display: flex;
+        justify-content: space-around;
+     }
+       .hero-content h1 {
+        font-size: 12px;
+        margin-left: 2px;
+      }
+      .hero-content p {
+        margin-top: 5px;
+        font-size: 6px;
+        margin-left: 2px;
+      }
+       .btn{
+        height:20px;
+        width: 50px;
+        margin: 2px;
+        border-radius: 5px;
+        border: none;
+        color: #f4f4f4;
+        margin-top: 5px;
+      
+      }
+       .apple{
+        height: 10px;
+        margin-left: 1px;
+        filter: invert(1);
+      }
+      
+      .play{
+        height: 10px;
+        margin-left: 1px;
+        filter: invert(1);
+      }
+      .doctor{
+        height: 120px;
+        margin-bottom: 30px;
+      }
+      b{
+        font-size: 6px;
+      }
+
+      .left{
+        padding-top: 3rem;
+      }
+
+      .png{
+        height: 45px;
+        margin-left:20px;
+        margin-right:55px;
+        align-items: center;
+        justify-content: center;
+        display: inline;
+      }
+      .mission-content h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+      .about-content h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .image-hospital h2{
+        font-size: 20px;
+      }
+      .history-content h2
+      {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      #images h2{
+        font-size: 20px;
+      }
+      .achievements-content h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-left: 120px;
+      }
+
+      .achievements-content ul {
+         margin-left: 90px;
+      }
+      
+      .about-content p{
+        font-size: 10px;
+        text-align: start;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      .history-content p {
+        font-size: 10px;
+        text-align: start;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      #contact h2 {
+        font-size: 18px;
+        padding-bottom: 15px;
+      }
+      #contact p {
+        font-size: 15px;
+      }
+      #contact b {
+        font-weight: normal;
+        font-size: 15px;
+      }
+      .con{
+        font-size: 18px;
+        padding-left: 0rem;
+      }
+      footer p {
+        font-size: 8px;
+      }
+  }
+
+  
