@@ -198,7 +198,11 @@
       height: 80px;
       width: 150px;
     }
-
+    footer p {
+      font-size: 8px;
+      justify-content: center;
+      text-align: center;
+    }  
 
   }
   
